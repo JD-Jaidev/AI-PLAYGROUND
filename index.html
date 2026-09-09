@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Playground</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://emojifavicons.com/robot">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" aria-hidden="true"></div>
+    
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-circle"></div>
+        <span>INITIALIZING AI PLAYGROUND...</span>
+    </div>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <span class="logo-icon">🤖</span>
+                AI Playground
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">AI Services</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#developers">Developers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="#services" class="btn btn-primary">Explore AI &rarr;</a>
+                <button class="hamburger" aria-label="Toggle Navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+
+                <div class="hero-content reveal fade-right">
+                    <div class="badge">
+                        AI PROJECTS • EXPERIMENTS • INNOVATION
+                    </div>
+                    <h1 class="hero-title">
+                        Explore.<br>
+                        Experiment.<br>
+                        <span class="gradient-text">Experience AI.</span>
+                    </h1>
+                    <p class="hero-desc">
+                        A collection of AI-powered applications built to explore, experiment with, and experience the
+                        possibilities of Artificial Intelligence.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">Explore AI Projects &rarr;</a>
+                        <a href="#journey" class="btn btn-secondary">Our Journey &darr;</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat"><span class="counter" data-target="03">00</span>
+                            <p>AI Projects</p>
+                        </div>
+                        <div class="stat"><span class="counter" data-target="01">00</span>
+                            <p>Playground</p>
+                        </div>
+                        <div class="stat"><span>&infin;</span>
+                            <p>Ideas</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!-- About Playground -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="section-label">01 / ABOUT</span>
+                    <h2 class="section-title">More Than Just a Collection of Projects</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text reveal fade-right">
+                        <p class="large-text">AI Playground is a central platform for discovering and launching multiple
+                            AI applications.</p>
+                        <p>The purpose is to make experimentation with AI simple:<br>
+                            <strong>One Platform. Multiple AI Experiences. Endless Possibilities.</strong>
+                        </p>
+                    </div>
+                    <div class="about-cards reveal fade-left">
+                        <div class="card small-card">
+                            <h3>01 ~ Explore</h3>
+                            <p>Discover different AI applications.</p>
+                        </div>
+                        <div class="card small-card">
+                            <h3>02 ~ Experiment</h3>
+                            <p>Experience practical implementations of AI.</p>
+                        </div>
+                        <div class="card small-card">
+                            <h3>03 ~ Evolve</h3>
+                            <p>Continuously add new experiments and technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!-- AI Services -->
+        <section id="services" class="section bg-darker">
+            <div class="container">
+                <div class="section-header text-center reveal fade-up">
+                    <span class="section-label">02 / AI SERVICES</span>
+                    <h2 class="section-title">Explore Our AI Playground</h2>
+                    <p class="section-subtitle">Choose an AI experience and launch it.</p>
+                </div>
+                <div class="services-grid"></div>
+            </div>
+        </section>
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!-- Why AI Playground -->
+        <section id="why" class="section">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="section-label">03 / WHY</span>
+                    <h2 class="section-title">Built With Curiosity.<br>Designed For Experimentation.</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="card feature-card reveal fade-up" style="transition-delay: 0.1s">
+                        <div class="feature-icon">⚙️</div>
+                        <h3>Practical AI</h3>
+                        <p>Build AI applications around real-world use cases.</p>
+                    </div>
+                    <div class="card feature-card reveal fade-up" style="transition-delay: 0.2s">
+                        <div class="feature-icon">🏗️</div>
+                        <h3>Learn By Building</h3>
+                        <p>Turn concepts into working applications.</p>
+                    </div>
+                    <div class="card feature-card reveal fade-up" style="transition-delay: 0.3s">
+                        <div class="feature-icon">🧪</div>
+                        <h3>Experimentation</h3>
+                        <p>Explore different AI models, architectures, and technologies.</p>
+                    </div>
+                    <div class="card feature-card reveal fade-up" style="transition-delay: 0.4s">
+                        <div class="feature-icon">📈</div>
+                        <h3>Continuous Growth</h3>
+                        <p>The playground will continue evolving with new projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!-- Our Journey -->
+        <section id="journey" class="section bg-darker">
+            <div class="container">
+                <div class="section-header text-center reveal fade-up">
+                    <span class="section-label">04 / JOURNEY</span>
+                    <h2 class="section-title">From Learning AI to Building With AI</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-item reveal slide-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <span class="timeline-num">01</span>
+                            <h3>The Beginning</h3>
+                            <p>Started learning programming, AI, and Machine Learning fundamentals.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal slide-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <span class="timeline-num">02</span>
+                            <h3>Building Projects</h3>
+                            <p>Started converting concepts into practical applications.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal slide-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <span class="timeline-num">03</span>
+                            <h3>Exploring Generative AI</h3>
+                            <p>Explored LLMs, RAG, Embeddings, Computer Vision, and Generative AI.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal slide-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <span class="timeline-num">04</span>
+                            <h3>The Playground</h3>
+                            <p>Combined multiple AI applications into one central platform.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal slide-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <span class="timeline-num">05</span>
+                            <h3>What's Next?</h3>
+                            <p>Continue experimenting, building, and adding new AI experiences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!-- Technologies -->
+        <section id="tech" class="section">
+            <div class="container">
+                <div class="section-header text-center reveal fade-up">
+                    <span class="section-label">05 / TECHNOLOGY</span>
+                    <h2 class="section-title">Technologies Behind The Playground</h2>
+                    <p class="section-subtitle note">~ Different projects use different technologies depending on their
+                        purpose ~</p>
+                </div>
+                <div class="tech-grid reveal fade-up"></div>
+            </div>
+        </section>
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!-- Developers -->
+        <section id="developers" class="section bg-darker">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="section-label">06 / DEVELOPERS</span>
+                    <h2 class="section-title">Meet The Builders</h2>
+                </div>
+                <div class="dev-grid reveal fade-up">
+                    <div class="card dev-card">
+                        <div class="dev-header">
+                            <img src="assets/prof-img.png" alt="Developer 1" class="dev-avatar">
+                            <div>
+                                <h3>Jaidev S</h3>
+                                <span class="dev-role">AI Engineer</span>
+                            </div>
+                        </div>
+                        <p class="dev-desc">Passionate about Artificial Intelligence, Machine Learning, and developing
+                            intelligent solutions to real-world problems.</p>
+                        <div class="tags">
+                            <span>Python</span><span>RAG</span><span>LLMs</span>
+                        </div>
+                        <div class="dev-links">
+                            <a href="https://github.com/JD-Jaidev/" class="github-link">GitHub &rarr;</a>
+                            <a href="https://www.linkedin.com/in/jaidev-s/" class="linkedin-link">LinkedIn &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="card dev-card">
+                        <div class="dev-header">
+                            <img src="assets/prof-nitin.jpg" alt="Developer 2" class="dev-avatar">
+                            <div>
+                                <h3>Nitin V R</h3>
+                                <span class="dev-role">Software Engineer</span>
+                            </div>
+                        </div>
+                        <p class="dev-desc">Passionate about Software Development, Artificial Intelligence, and creating
+                            innovative solutions to real-world problems.</p>
+                        <div class="tags">
+                            <span>Python</span><span>AI</span><span>LLMs</span>
+                        </div>
+                        <div class="dev-links">
+                            <a href="https://github.com/Nitin-VR/" class="github-link">GitHub &rarr;</a>
+                            <a href="https://www.linkedin.com/in/vrnitin/" class="linkedin-link">LinkedIn &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!-- Contact Form -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-wrapper card reveal fade-up">
+                    <div class="contact-info">
+                        <h2 class="section-title">Have an Idea?<br>Let's Talk.</h2>
+                        <p>Reach out to discuss AI, collaborate on a project, or just say hello.</p>
+
+                        <div class="info-items">
+                            <div class="info-item hover-lift">
+                                <i class="ph ph-envelope"></i>
+                                <span>jaidevsjd.10@gmail.com</span>
+                            </div>
+                            <div class="info-item hover-lift">
+                                <i class="ph ph-envelope"></i>
+                                <span>nitinvr24@gmail.com</span>
+                            </div>
+                            <div class="info-item hover-lift">
+                                <i class="ph ph-map-pin"></i>
+                                <span>Chennai</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="contact-form-container">
+                        <form id="contact-form" novalidate>
+                            <div class="input-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-msg">Please enter your name.</span>
+                            </div>
+                            <div class="input-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-msg">Please enter a valid email.</span>
+                            </div>
+                            <div class="input-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="message" name="message" required>
+                                <span class="error-msg">Please enter a subject.</span>
+                            </div>
+                            <div class="input-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" maxlength="500" required></textarea>
+                                <div class="char-count"><span id="char-current">0</span>/500</div>
+                                <span class="error-msg">Please enter your message.</span>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="submit-btn">
+                                <span class="btn-text">Send Message &rarr;</span>
+                                <span class="loader-spinner hidden"></span>
+                            </button>
+                            <div class="form-success hidden">Message sent successfully!</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#hero" class="logo">
+                        <span class="logo-icon"></span>
+                        Jaidev S & Nitin V R's AI Playground
+                    </a>
+                    <p>Building. Experimenting. Exploring AI.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jaidev & Nitin's AI Playground</p>
+                <p>Built with ❤️ & curiosity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Back to top -->
+    <a href="#hero" class="back-to-top" aria-label="Back to top">&uarr;</a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
