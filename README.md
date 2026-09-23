@@ -3,7 +3,7 @@
 A collection of AI-powered applications built to explore practical applications of **Generative AI, RAG, LLMs, and NLP**.
 
 ## 📊 Live Demo
-[AI-Playground]()
+[AI-Playground](https://ai-multi-playground.vercel.app/)
 
 ## 🚀 Projects
 
