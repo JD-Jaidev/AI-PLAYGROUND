@@ -54,7 +54,7 @@ const projectsData = [
         desc: 'Interact with an intelligent conversational AI capable of understanding context and generating useful responses.',
         tags: ['LLM', 'NLP', 'APIs'],
         cta: 'Start Chatting',
-        url: PROJECT_URLS.chatbot
+        url: "https://ai-multi-model-chatbot.streamlit.app/"
     }
 ];
 
